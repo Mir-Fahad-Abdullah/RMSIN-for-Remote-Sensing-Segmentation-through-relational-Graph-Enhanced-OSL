@@ -1,0 +1,25 @@
+name: myenv
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.10
+- pip
+- pip:
+  - '# RMSIN OSL Requirements for HPC'
+  - '# Python 3.10+ with CUDA 12.6'
+  - ''
+  - '# Core packages (will be installed via pip)'
+  - einops
+  - torchinfo
+  - tabulate
+  - transformers
+  - timm
+  - scikit-learn
+  - opencv-python
+  - pillow
+  - matplotlib
+  - tqdm
+  - numpy
+  - pandas
+  - pycocotools
